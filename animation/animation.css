@@ -19,3 +19,8 @@
   .header__square-pic {
     animation: rotation 20s linear infinite alternate;
   }
+  
+  .link__transition:hover {
+    animation: opacity 1s ease-in-out forwards;
+  }
+  

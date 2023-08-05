@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -6,7 +7,7 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Outfit', sans-serif;
 }
 
 .header {
@@ -126,12 +127,9 @@
   line-height: 34px;
 }
 
-.digits {
+.techniques {
   display: flex;
-  padding: 100px 36px;
-  height: 100vh;
   min-height: 600px;
-  max-height: 756px;
   margin: 100px 0px;
   flex-direction: column;
 }
@@ -144,7 +142,7 @@
 }
 
 .section__title {
-  line-height: 69px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin: 0;
@@ -158,44 +156,65 @@
   font-weight: normal;
 }
 
-.table {
+.cards {
+  width: 920px;
+  margin: auto;
+}
+
+.cards__item {
+  margin: 0 100px 60px 0;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: 0;
-}
-
-.table__cell {
+  flex-direction: column;
   width: 250px;
-  margin: 0 10px;
+  height: 500px;
 }
 
-.table__heading {
+.cards__image {
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+}
+
+.cards__title {
   line-height: 1.15;
+  margin: 0;
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
-.table__text {
-  line-height: 1.2;
+.cards__description {
+  line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+  text-align: center;
+  margin: 16px 0 0 0;
 }
 
-.table__top {
+.cards__row {
   display: flex;
   flex-direction: row;
-  margin: 60px auto;
+  margin:0;
 }
 
-.table__bottom {
+.video {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.table__text-2 {
-  margin-top: 20px;
+.section__subtitle_video {
+  margin-bottom: 50px;
+}
+
+.video__iframe {
+  padding: 0 10px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  height: 100vh;
 }
 
 .feynman {
