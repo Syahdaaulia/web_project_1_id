@@ -263,6 +263,7 @@
 }
 
 .digits { 
+<<<<<<< HEAD
   display: flex;
   padding: 100px 36px;
   height: 100vh;
@@ -270,6 +271,15 @@
   max-height: 756px;
   margin: 100px 0px;
   flex-direction: column;
+=======
+  display: flex; 
+  padding: 100px 36px; 
+  height: 100vh; 
+  min-height: 600px; 
+  max-height: 756px; 
+  margin: 100px 0px; 
+  flex-direction: column; 
+>>>>>>> dcc3db13447b0bba40b882327b231532cd4a6108
 } 
  
 .section { 
