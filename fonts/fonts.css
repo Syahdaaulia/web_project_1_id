@@ -1,1 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@font-face {
+    src: url(https://practicum-content.s3.us-west-1.amazonaws.com/fonts/moved_Ibmplexserifsemibold.woff2) format('woff2'),
+         url(https://practicum-content.s3.us-west-1.amazonaws.com/fonts/moved_Ibmplexserifsemibold.woff) format('woff'),
+         url(https://practicum-content.s3.us-west-1.amazonaws.com/fonts/moved_Ibmplexserifsemibold.ttf) format('truetype');
+    font-family: 'IBM Plex Serif';
+    font-weight: bold;
+  }
