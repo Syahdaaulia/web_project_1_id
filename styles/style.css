@@ -199,6 +199,7 @@
 }
 
 .video {
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +215,7 @@
 
 .oakley {
   background-color: #f2f2f2;
-  height: 100vh;
+  padding-top: 160px;
 }
 
 .feynman {
@@ -259,6 +260,127 @@
   line-height: 51;
   font-size: 18px;
   font-weight: normal;
+}
+
+.digits { 
+  display: flex;
+  padding: 100px 36px;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  margin: 100px 0px;
+  flex-direction: column;
+} 
+ 
+.section { 
+  display: flex; 
+  width: 100%; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+ 
+.section__title { 
+  line-height: 69px; 
+  font-size: 60px; 
+  font-weight: bold; 
+  margin: 0; 
+} 
+ 
+.section__subtitle { 
+  margin-top: 20px; 
+  margin-bottom: 60px; 
+  line-height: 34px; 
+  font-size: 24px; 
+  font-weight: normal; 
+} 
+
+.table { 
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: center; 
+  margin: 0; 
+} 
+ 
+.table__cell { 
+  width: 250px; 
+  margin: 0 10px; 
+} 
+ 
+.table__heading { 
+  line-height: 1.15; 
+  font-size: 24px; 
+  font-weight: bold; 
+} 
+ 
+.table__text { 
+  line-height: 1.2; 
+  font-size: 18px; 
+  font-weight: normal;
+} 
+ 
+.table__top { 
+  display: flex; 
+  flex-direction: row; 
+  margin: 60px auto; 
+}
+
+.table__bottom {
+  display: flex; 
+  flex-direction: row; 
+  margin-bottom: 100px; 
+} 
+ 
+.table__text-2 { 
+  margin-top: 20px; 
+} 
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.25;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.book__container {
+  height: 608px;
+  width: 620px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+ 
+.khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .kaufman {
@@ -333,6 +455,21 @@ z-index: 1;
   top: 0px;
   right: 0px;
   z-index: 0;
+}
+
+.resources {
+  margin: 100px auto 217px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: auto;
+}
+
+.resources__logo{
+  width: 270px;
+  height: 38px;
+  margin-top: 80px;
 }
 
 .footer {
