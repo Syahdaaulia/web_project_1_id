@@ -12,14 +12,14 @@
     align-items: center;
   }
   
-  .section__title {
+  .section-title {
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
     margin: 0;
   }
   
-  .section__subtitle {
+  .section-subtitle {
     margin-top: 20px;
     margin-bottom: 60px;
     line-height: 34px;

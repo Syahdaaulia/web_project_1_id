@@ -20,12 +20,12 @@
     z-index: 0;
   }
 
-  .section_theme-dark {
+  .section_theme_dark {
     margin: 0px;
     z-index: 1;
   }
   
-  .section__title_theme-dark {
+  .section-title_theme_dark {
     color: white;
     line-height: 69px;
     font-size: 60px;
@@ -36,7 +36,7 @@
     margin: 0;
   }
   
-  .section__subtitle_theme-dark {
+  .section-subtitle_theme_dark {
     color: white;
     line-height: 34px;
     font-size: 24px;
@@ -47,30 +47,20 @@
     margin: 20px 0px 80px 0px;
   }
   
-  .table__theme-dark {
+  .table_theme_dark {
   display: flex;
   width: 1100px;
   margin: 0;
   z-index: 1;
   }
   
-  .table__cell_theme-dark {
+  .table__cell_theme_dark {
     width: 200px;
     color: white;
     list-style: none;
   }
   
-  .table__cell-heading {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
+  .table__heading_theme_dark {
     margin-bottom: 20px;
   }
-  
-  .table__cell-paragraph {
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
-  }
-  
   
