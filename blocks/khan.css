@@ -33,16 +33,17 @@
     font-weight: normal;
   }
 
-  .khan__buy-link {
-      line-height: 42px;
-      font-size: 30px;
-      font-weight: normal;
-  }
-  
-  .book__container {
+  .khan__book-container {
     height: 608px;
     width: 620px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
   }
+
+  .khan__buy-link {
+      line-height: 42px;
+      font-size: 30px;
+      font-weight: normal;
+  }
+  

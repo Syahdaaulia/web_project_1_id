@@ -20,7 +20,7 @@
     animation: rotation 20s linear infinite alternate;
   }
   
-  .link_transition:hover {
+  a:hover {
     animation: opacity 1s ease-in-out forwards;
   }
   
