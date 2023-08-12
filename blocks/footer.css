@@ -34,12 +34,12 @@
         width: 20%;
       }
 
-    .footer__column_author {
+    .footer__author {
       color: #ffffff;
       font-size: 18px;
     }
     
-    .footer__column_heading {
+    .footer__column-heading {
       color: #ffffff;
       margin: 0px;
       line-height: 30px;
