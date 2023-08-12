@@ -25,7 +25,7 @@
     z-index: 1;
   }
   
-  .section-title_theme_dark {
+  .section__title_theme_dark {
     color: white;
     line-height: 69px;
     font-size: 60px;
@@ -36,7 +36,7 @@
     margin: 0;
   }
   
-  .section-subtitle_theme_dark {
+  .section__subtitle_theme_dark {
     color: white;
     line-height: 34px;
     font-size: 24px;
