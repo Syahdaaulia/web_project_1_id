@@ -15,7 +15,7 @@
     width: 730px;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 25vh;
+    margin-top: 30vh;
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
@@ -39,6 +39,7 @@
   .header__link {
     line-height: 25px;
     font-size: 18px;
+    text-decoration: none;
   }
   
   .header__main-ilustrator {

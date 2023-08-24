@@ -26,12 +26,14 @@
         justify-content: flex-start;
         flex-direction: column;
         width: 20%;
+        text-align: right;
       }
 
       .footer__column_content_social {
         display: flex;
         flex-direction: column;
         width: 20%;
+        text-align: right;
       }
 
     .footer__author {

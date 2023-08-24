@@ -5,7 +5,6 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    margin: 100px 0px 0px 0px;
     position: relative;
   }
   .feynman__image {
@@ -37,7 +36,12 @@
   }
   
   .feynman__link {
-    line-height: 51;
-    font-size: 18px;
+    line-height: 51px;
+    font-size: 36px;
     font-weight: normal;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    text-decoration: none;
+    color: black;
   }
