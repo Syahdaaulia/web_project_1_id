@@ -11,6 +11,7 @@
     padding: 90px 36px;
     margin: 0px;
     flex-direction: row;
+    justify-content: space-between;
   }
 
     .footer__column_content_copyright {
@@ -21,20 +22,21 @@
     justify-content: space-between;
     }
     
-    .footer__column_content_about {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 20%;
-        text-align: right;
-      }
+  .footer__column_content_about {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 20%;
+  text-align: left;
+  }
 
-      .footer__column_content_social {
-        display: flex;
-        flex-direction: column;
-        width: 20%;
-        text-align: right;
-      }
+  .footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: right;
+  right: 0px;
+  }
 
     .footer__author {
       color: #ffffff;
