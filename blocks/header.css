@@ -19,6 +19,7 @@
     font-size: 102px;
     font-weight: bold;
     line-height: 96px;
+    z-index: 2;
   }
   
   .header__subtitle {
